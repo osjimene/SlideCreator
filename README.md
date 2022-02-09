@@ -10,13 +10,17 @@ Line 14 and 15 of Main.py reference the environment variabbles I used. If you wa
 
 Currently the best example that I have created a PPT presentation with are the MIP workitems in ADO that I assigend to myself to test these features. So if you select the number 5 for power platform it might not work right because it doesnt have the necessary HTML table to pull information from in your ADO items. 
 
-You might have noticed that I added some of these tables to your Redzone items a couple months ago to test the function on all of the redzone. What the table does is fill out the information for the PG owner, the ADO url, and the comment status in the slide deck. I reccomment testing with the MIP RZ items so you get an idea of how it populates the slide deck. 
+You might have noticed that I added some of these tables to your Redzone items a couple months ago to test the function on all of the redzone. What the table does is fill out the information for the PG owner, the ADO url, and the comment status in the slide deck. I reccommend testing with the MIP RZ items so you get an idea of how it populates the slide deck. 
 ![image](https://user-images.githubusercontent.com/81704872/153248954-44af8c8b-cdd9-4797-b4d9-7fba30c02b89.png)
 
 
 Once you have all the files in this repository on a folder in your machine just run the following command:
 Python Main.py [Outfile-Name]
 ex. "Python Main.py Power.PPTX"
+
+Here is an example of the format the powerpoint script will spit out:
+![image](https://user-images.githubusercontent.com/81704872/153250132-2236a747-2371-4db2-9fe6-cf4505471832.png)
+
 
 This will start the script and you will be prompted via the command line which RedZone you would like to generate a slide deck for. Type the corresponding number and then the slide deck will populate in the same folder as the rest of your files. 
 
