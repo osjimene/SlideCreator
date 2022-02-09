@@ -18,8 +18,7 @@ Once you have all the files in this repository on a folder in your machine just 
 Python Main.py [Outfile-Name]
 ex. "Python Main.py Power.PPTX"
 
-Here is an example of the format the powerpoint script will spit out:
-![image](https://user-images.githubusercontent.com/81704872/153250132-2236a747-2371-4db2-9fe6-cf4505471832.png)
+
 
 
 This will start the script and you will be prompted via the command line which RedZone you would like to generate a slide deck for. Type the corresponding number and then the slide deck will populate in the same folder as the rest of your files. 
