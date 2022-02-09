@@ -4,11 +4,9 @@ from pptx.util import Inches, Pt
 import argparse
 import pandas as pd
 from datetime import date
-import matplotlib.pyplot as plt
 import requests
 from requests.auth import HTTPBasicAuth
 from collections import defaultdict
-from pandas.io.json import json_normalize
 import dateutil.parser
 from pptx.dml.color import RGBColor
 import os
